@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(-45deg, #fff8f3, #ffeadd, #fff1e6, #ffd8bd);
+  background-size: 400% 400%;
+  animation: gradientMove 20s ease infinite;
+  color: #333;
+  text-align: center;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  color: #f46238;
+  margin-top: 40px;
+  font-size: 32px;
+}
+
+.genre-select {
+  margin: 30px auto 20px;
+}
+
+.genre-select label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #f46238;
+}
+
+#genreSelect {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.movie-card {
+  background-color: #fff4ef;
+  border-left: 6px solid #f46238;
+  padding: 16px 20px;
+  width: 260px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  transition: transform 0.2s;
+  text-align: left;
+
+  
+  margin: auto;
+}
+
+
+.movie-card:hover {
+  transform: translateY(-4px);
+  cursor:pointer;
+}
+
+.no-movies {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #999;
+}
