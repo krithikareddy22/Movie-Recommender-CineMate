@@ -9,18 +9,43 @@ A web application that allows users to:
 Built using **HTML**, **CSS**, **JavaScript**, **Node.js**, and **CSV data**.
 
 ---
+## 🚀 Live Demo
+
+Visit the live app here:  
+👉 [https://movie-recommender-cinemate.onrender.com/](https://movie-recommender-cinemate.onrender.com/)
+---
 
 ## 📁 Project Structure
 
-<pre><code>``` Movie-Recommender-CineMate/
-│
+<pre><code>```Movie-Recommender-CineMate/
+├── .vscode/
+├── node_modules/
 ├── public/
-│ ├── index.html # Main frontend
-│ ├── style.css # Styling
-│ └── script.js # Frontend logic
-│
-├── movie.csv # Original movie data
-├── rating_generated.csv # Ratings submitted by users
+│   └── assets/
+├── css/
+│   ├── styles.css
+|   |── styles2.css
+├── data/
+│   ├── movie.csv
+│   └── rating_generated.csv
+├── genre/
+│   ├── genre.html
+│   └── genre.js
+├── js/
+│   └── scripts.js
+├── Rate a movie/
+│   ├── rate_a_movie.html
+│   └── rate_a_movie.js
+├── Searchmovie_rating/
+│   ├── searchmovie.html
+│   └── searchmovie.js
+├── Top_rating/
+│   ├── top_rating.html
+│   ├── top_rating.js
+│   └── get-recommendations.html
+├── index.html
+├── .gitignore
+├── package-lock.json
 ├── server.js # Express backend server
 ├── package.json # Node.js dependencies
 └── README.md # Project documentation ``` </code></pre>
