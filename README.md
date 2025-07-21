@@ -58,24 +58,23 @@ Visit the live app here:
 ![Home Page1](./screenshots/home1.png)
 ![Home Page2](./screenshots/home2.png)
 
+## 🏢 Facilities
+![Facilities](./screenshots/facilities.png)
+
 
 ### 🎭 Genre Recommendations
-Get movie recommendations by selecting a genre.  
 ![Genre Recommendations](./screenshots/genre.png)
 
 
 ### 📊 Top Rated Movies
-View a list of movies with the highest average ratings.  
 ![Top Rated Movies](./screenshots/top-rated.png)
 
 
 ### 🔍 Search Movie
-Look up any movie and view its average rating.  
 ![Search Movie](./screenshots/search.png)
 
 
 ### ⭐ Rate a Movie
-Submit ratings for your favorite movies.  
 ![Rate a Movie](./screenshots/rate.png)
 
 ## 🚀 Features
