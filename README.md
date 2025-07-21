@@ -13,7 +13,7 @@ Built using **HTML**, **CSS**, **JavaScript**, **Node.js**, and **CSV data**.
 
 Visit the live app here:  
 👉 [https://movie-recommender-cinemate.onrender.com/](https://movie-recommender-cinemate.onrender.com/)
----
+
 
 ## 📁 Project Structure
 
@@ -52,6 +52,31 @@ Visit the live app here:
 
 
 ---
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page1](./screenshots/home1.png)
+![Home Page2](./screenshots/home2.png)
+
+
+### 🎭 Genre Recommendations
+Get movie recommendations by selecting a genre.  
+![Genre Recommendations](./screenshots/genre.png)
+
+
+### 📊 Top Rated Movies
+View a list of movies with the highest average ratings.  
+![Top Rated Movies](./screenshots/top-rated.png)
+
+
+### 🔍 Search Movie
+Look up any movie and view its average rating.  
+![Search Movie](./screenshots/search.png)
+
+
+### ⭐ Rate a Movie
+Submit ratings for your favorite movies.  
+![Rate a Movie](./screenshots/rate.png)
 
 ## 🚀 Features
 
