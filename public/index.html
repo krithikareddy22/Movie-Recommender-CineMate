@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CineMate</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300italic,400italic,700,700italic" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="top">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="nav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand" href="#top">CineMate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#recs">Recommendations</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="masthead">
+    <div class="container h-100 d-flex align-items-center justify-content-center text-center">
+      <div class="col-lg-8">
+        <h1 class="text-white fw-bold">Discover Your Next Favorite Movie</h1>
+        <hr class="divider" />
+        <p class="text-white-75 mb-5">CineMate recommends the best movies for you based on genres and ratings. Start exploring now!</p>
+        <a class="btn btn-primary btn-xl" href="#recs">Get Recommendations</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="bg-primary py-5" id="about">
+    <div class="container text-center">
+      <h2 class="text-white">What is CineMate?</h2>
+      <hr class="divider-light" />
+      <p class="text-white-75">CineMate is a simple C++ powered movie recommendation tool that helps you discover movies you'll love. Filter by genre, sort by rating, and enjoy!</p>
+      <a class="btn btn-light btn-xl" href="#features">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-5" id="features">
+    <div class="container">
+      <h2 class="text-center">Features</h2>
+      <hr class="divider" />
+      <div class="row text-center">
+        <div class="col-lg-3 col-md-6">
+          <i class="bi-film fs-1 text-primary"></i>
+          <h4>Genre-Based</h4>
+          <p class="text-muted">Pick your favorite genres and get matched instantly.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <i class="bi-star fs-1 text-primary"></i>
+          <h4>Top Rated</h4>
+          <p class="text-muted">See movies sorted by user ratings.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <i class="bi-search fs-1 text-primary"></i>
+          <h4>Search Easily</h4>
+          <p class="text-muted">Search by title and get quick matches.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <i class="bi-hand-thumbs-up fs-1 text-primary"></i>
+          <h4>Give Feedback</h4>
+          <p class="text-muted">Rate movies and improve your recs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations -->
+  <section id="recs" class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Your Recommendations</h2>
+      <hr class="divider" />
+      <p>Click below to see personalized recommendations.</p>
+      <a class="btn btn-primary btn-xl" href="get-recommendations.html">Show Movies</a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">© 2025 CineMate | All rights reserved</div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

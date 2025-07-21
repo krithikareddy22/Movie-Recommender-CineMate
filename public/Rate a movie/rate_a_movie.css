@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fff1e6, #ffe2d1, #fff4ef, #ffd8bd);
+    background-size: 300% 300%;
+    animation: gradientSlide 12s ease infinite;
+    color: #333;
+    text-align: center;
+  }
+  
+  @keyframes gradientSlide {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: #f46238;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 12px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f46238;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d94e22;
+  }
+  
+  #suggestions {
+    margin-bottom: 20px;
+  }
+  
+  .suggestion {
+    background-color: #fff4ef;
+    border-left: 6px solid #f46238;
+    padding: 10px 14px;
+    margin: 5px auto;
+    max-width: 400px;
+    text-align: left;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .suggestion:hover {
+    background-color: #ffe3d2;
+  }
+  
+  #thankYou {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 20px;
+  }
+  

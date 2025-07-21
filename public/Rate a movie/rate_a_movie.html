@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rate a Movie</title>
+  <link rel="stylesheet" href="rate_a_movie.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⭐ Rate a Movie</h1>
+
+    <input id="movieInput" type="text" placeholder="Type part of a movie name..." autocomplete="off"/>
+    <div id="suggestions"></div>
+
+    <div id="ratingSection" style="display: none;">
+      <input id="rating" type="number" step="0.1" min="0.5" max="5" placeholder="Enter your rating (0.5 to 5)"/>
+      <button id="submitRating">Submit Rating</button>
+    </div>
+
+    <p id="thankYou" style="display: none;"></p>
+  </div>
+
+  <script src="rate_a_movie.js"></script>
+</body>
+</html>

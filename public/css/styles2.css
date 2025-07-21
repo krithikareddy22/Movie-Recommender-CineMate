@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/960810016/vector/cinema-hall.jpg?s=612x612&w=0&k=20&c=qtzmlX6GLPYdekq5sdu52GtEt41nBgerRtdNTo79bE0=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .head {
+    background-color: white;
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #f46238;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  button {
+    background-color: #f46238;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d04019;
+  }
+  
+  #output {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
